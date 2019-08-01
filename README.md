@@ -1,5 +1,5 @@
 # yolov3-tiny2onnx2trt
-convert your yolov3-tiny model to trt model
+Convert your yolov3-tiny model to trt model
 
 # device: nvidia tx2
 
@@ -49,13 +49,13 @@ convert your yolov3-tiny model to trt model
 	
 	1.Change your settings as "#custom settings"
 
-	2.run commands:
+	2.Run commands:
 		cd yolov3-tiny2onnx2trt
 		python yolov3_to_onnx.py
 
 		you will get a yolov3-tiny.onnx file
 
-	3.run commands:	
+	3.Run commands:	
 	  	python onnx_to_tensorrt.py:
 
 		you will get a yolov3-tiny.trt file and some inferenced images.
