@@ -1,17 +1,17 @@
 # yolov3-tiny2onnx2trt
 convert your yolov3-tiny model to trt model
 
-#device: nvidia tx2
+# device: nvidia tx2
 
 
-#jetpack version:jetpack4.2:
+# jetpack version:jetpack4.2:
 	ubuntu18.04 
 	tensorrt5.0.6.3 
 	cuda10.0 
 	cudnn7.3.1
 
 
-#others:
+# others:
 	python=2.7
 	numpy=1.16.1
 	onnx=1.4.1 (important)
@@ -42,17 +42,17 @@ convert your yolov3-tiny model to trt model
 		    IMAGE_PATH = '/home/nvidia/yolov3-tiny2onnx2trt/images/'
 		    save_path = '/home/nvidia/yolov3-tiny2onnx2trt/'
 
-#steps:
-1.change your settings as "#custom settings"
+# steps:
+	1.change your settings as "#custom settings"
 
-2.
-	cd yolov3-tiny2onnx2trt
-	python yolov3_to_onnx.py
-	
-	you will get a yolov3-tiny.onnx file
+	2.
+		cd yolov3-tiny2onnx2trt
+		python yolov3_to_onnx.py
 
-3.	
-  python onnx_to_tensorrt.py:
-	
-	you will get a yolov3-tiny.trt file and some inferenced images.
+		you will get a yolov3-tiny.onnx file
+
+	3.	
+	  	python onnx_to_tensorrt.py:
+
+		you will get a yolov3-tiny.trt file and some inferenced images.
 
