@@ -1,7 +1,7 @@
 # yolov3-tiny2onnx2trt
 Convert your yolov3-tiny model to trt model
 
-# device: nvidia tx2
+# device: nvidia jetson tx2
 
 
 # jetpack version:jetpack4.2:
