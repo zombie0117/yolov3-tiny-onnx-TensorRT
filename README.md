@@ -43,15 +43,19 @@ convert your yolov3-tiny model to trt model
 		    save_path = '/home/nvidia/yolov3-tiny2onnx2trt/'
 
 # steps:
-	1.change your settings as "#custom settings"
+	0.Put your .weights file in the folder
+		|-yolov3-tiny2onnx2trt
+			|-yolov3-tiny.weights
+	
+	1.Change your settings as "#custom settings"
 
-	2.
+	2.run commands:
 		cd yolov3-tiny2onnx2trt
 		python yolov3_to_onnx.py
 
 		you will get a yolov3-tiny.onnx file
 
-	3.	
+	3.run commands:	
 	  	python onnx_to_tensorrt.py:
 
 		you will get a yolov3-tiny.trt file and some inferenced images.
