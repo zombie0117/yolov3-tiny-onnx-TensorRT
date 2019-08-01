@@ -41,7 +41,7 @@ Convert your yolov3-tiny model to trt model
 		    input_file_list = '/home/nvidia/yolov3-tiny2onnx2trt/imagelist.txt'
 		    IMAGE_PATH = '/home/nvidia/yolov3-tiny2onnx2trt/images/'
 		    save_path = '/home/nvidia/yolov3-tiny2onnx2trt/'
-# nodes(very important!):
+# notes (very important!):
 	0.The onnx version must be 1.4.1
 	
 	1.The cfg-file's last line must be a blank line. You should press Enter to add a blank line if there is no blank line at the end of the file.
